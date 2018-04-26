@@ -1,0 +1,25 @@
+{
+    "name": "yelv123/openwechat",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "rmccue/requests": "^1.7"
+    },
+    "require-dev": {
+        "php": "^7.1",
+        "rmccue/requests": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yelv123",
+            "email": "swustncgis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WechatLogin\\": "src/"
+        }
+    }
+}
